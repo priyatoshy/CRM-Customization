@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.workflow_state==\"In Progress\"",
+ "creation": "2025-01-24 21:30:52.068138",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Lead",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Dear team<</p>\n<br><br><br><br><br>\n<p>{{doc.name}} is in Progress</p>\n<br>\n<br>\n<p>Details</p>\n<br>\n<br>\n<p>Lead {{doc.name}}</p>\n<br>\n<p>Customer {{doc.customer}}</p>\n<br>\n<P>Next Date {{doc.custom_next_contact_date}}</p>\n<br>\n<br>\nThanks and Regars\n<br>\nAdmin",
+ "message_type": "HTML",
+ "modified": "2025-01-24 21:41:38.577227",
+ "modified_by": "Administrator",
+ "module": "Mycrm",
+ "name": "Lead In Progress",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "Sales User"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 1,
+ "subject": "{{doc.name}} is in progress",
+ "value_changed": "workflow_state"
+}

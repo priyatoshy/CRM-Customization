@@ -1,0 +1,45 @@
+{
+ "based_on": "",
+ "chart_name": "Lead by Status",
+ "chart_type": "Group By",
+ "creation": "2025-01-24 23:38:31.887731",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Lead",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "group_by_based_on": "status",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-01-24 23:38:54.268185",
+ "modified_by": "Administrator",
+ "module": "Mycrm",
+ "name": "Lead by Status",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "Sales Manager"
+  },
+  {
+   "role": "Sales User"
+  }
+ ],
+ "source": "",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "value_based_on": "",
+ "y_axis": []
+}
